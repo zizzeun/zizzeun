@@ -1,4 +1,4 @@
-### Hi there 👋
+### 서울여자대학교, 정보보호학과, 21학번 김지은 Terry 입니다.  👋
 
 <!--
 **zizzeun/zizzeun** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
