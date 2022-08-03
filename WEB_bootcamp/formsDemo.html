@@ -9,20 +9,23 @@
 <body>
     <main>
         <h1>FORMS DEMOs</h1>
+        <!-- http://127.0.0.1:5500/tacos?username=zizzeun&username=d -->
 
         <form action="/tacos">
             <!-- iput type -->
             <!-- placeholder -->
             <!-- form :: lable / form control 이나 텍스트랑 연결-->
+            <button>Please DO NOT SUBMIT THE FORM</button>
             <p>
                 <label for="username">Enter a Username</label>
-                <input type="text" id="username" placeholder="Name" required>
+                <input type="text" id="username" name="username" placeholder="Name" required>
             </p>
             <p>
                 <label for="password">Enter a Password</label>
-                <input type="password" id="password" placeholder="Password" required>
+                <input type="password" id="password" name="username" placeholder="Password" required>
             </p>
             <p>
+                <button>IN THE MIDDLE!</button>
                 <label for="color">Enter a Color</label>
                 <input type="color" id="color" placeholder="Color" required>
             </p>
@@ -34,6 +37,27 @@
                 <label for="time">Enter a Time</label>
                 <input type="time" id="time" placeholder="Time" required>
             </p>
+            <button>SUBMIT</button>
+        </form>
+        <hr>
+
+        <h3>Search for reddit</h3>
+        <form action="https://www.reddit.com/search">
+            <input type="text" name="q">
+            <button>Search for reddit</button>
+        </form>
+        <h3>Search for Google</h3>
+        <form action="https://www.Google.com/search">
+            <input type="text" name="q">
+            <button>
+                Google
+            </button>
+        </form>
+        <h3>Search for naver</h3>
+        <form action="https://www.youtube.com/results"><input type="text" names="search_query">
+            <button>
+                youtube
+            </button>
         </form>
     </main>
 </body>
